@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+display: flex;
+justify-content: center;
+margin-top: 0px;
+background-color:  rgb(106, 45, 45);;
+}
+div{
+    height:406px;
+    width: 300px;
+    background-color: rgb(106, 45, 45);
+    margin-top: 200px;
+    text-align: center;
+}
+input{
+    outline: none;
+    border-bottom: 1px solid rgb(70, 103, 104);
+    border-top: 1px solid  rgb(106, 45, 45);;
+    border-right: 1px solid  rgb(106, 45, 45);;
+    border-left: 1px solid  rgb(106, 45, 45);;
+    background-color: transparent;
+    margin: 10px 12px;
+    color: white;
+    height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 280px;
+
+} 
+input :focus {
+    color: rgb(47, 232, 44);
+}
+.mesa{
+    height:50px;
+    width: 280px ;
+    border: 1px solid white;
+}
+textarea{
+    background-color: transparent;
+    border-bottom: 1px solid rgb(70, 103, 104);
+    border-top: 1px solid  rgb(106, 45, 45);
+    border-right: 1px solid  rgb(106, 45, 45);
+    border-left: 1px solid  rgb(106, 45, 45);
+    outline: none;
+    color: white;
+
+}
+.btn{
+    height: 25px;
+    width: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;border: none;
+    background-color: rgb(169, 146, 227);
+    color: white;
+}
+.bttn{
+    height: 25px;
+    width: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
